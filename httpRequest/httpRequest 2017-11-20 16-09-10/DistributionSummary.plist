@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>httpRequest.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9C96733538499B661385E0BF83C5481C57AF0C60</string>
+				<key>dateExpires</key>
+				<string>20.07.18</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>MCHY2NCZ3E.com.testobject.httpRequest</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>MCHY2NCZ3E</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>MCHY2NCZ3E.com.testobject.httpRequest</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>httpRequest.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d0f6ea13-4f56-42b7-ba32-0a820c21507d</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.testobject.httpRequest</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>MCHY2NCZ3E</string>
+				<key>name</key>
+				<string>TestObject GmbH</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
