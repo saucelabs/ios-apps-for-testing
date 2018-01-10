@@ -77,14 +77,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iR-t2-6H7">
-                                <rect key="frame" x="124" y="97" width="73" height="38"/>
+                                <rect key="frame" x="160" y="100" width="144" height="33"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                <color key="backgroundColor" white="0.75" alpha="0.12956646126760563" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" identifier="get_button"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="GET "/>
                                 <connections>
                                     <action selector="get_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2W-SI-bgH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n31-Iw-VHa">
+                                <rect key="frame" x="16" y="100" width="136" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="clear_button"/>
+                                <state key="normal" title="CLEAR">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9c1-Gt-Lcr"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -22,9 +22,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         activityIndicator.hidesWhenStopped = true
     }
+  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()    }
+    
+    @IBAction func clear_button(_ sender: Any) {
+        endpointTextField.text = ""
+    }
     
     @IBAction func get_button(_ sender: Any) {
         
