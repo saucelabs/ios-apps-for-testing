@@ -37,16 +37,7 @@
 		80F831A61F681ACC0085C79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD102F0927C683AD0037230A /* httpRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = httpRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD102F0B27C683AD0037230A /* httpRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = httpRequestTests.swift; sourceTree = "<group>"; };
-		FD8456CE287851ED0099F66D /* longRunningTest2Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest2Hours.swift; sourceTree = "<group>"; };
-		FD8456D0287852580099F66D /* longRunningTest1Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest1Hour.swift; sourceTree = "<group>"; };
-		FD8456D22878528A0099F66D /* longRunningTest3Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest3Hours.swift; sourceTree = "<group>"; };
-		FD8456D4287852960099F66D /* longRunningTest11Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest11Hours.swift; sourceTree = "<group>"; };
-		FD8456D6287853D50099F66D /* longRunningTest1Min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest1Min.swift; sourceTree = "<group>"; };
-		FD8456D828786F060099F66D /* longRunningTest6Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest6Hours.swift; sourceTree = "<group>"; };
-		FD8456DA2878748C0099F66D /* longRunningTest13Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest13Hours.swift; sourceTree = "<group>"; };
 		FD880782288717CE0056E427 /* longRunningTest10Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest10Hours.swift; sourceTree = "<group>"; };
-		FD9853CC287F139800B69B86 /* longRunningTest1030Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest1030Hours.swift; sourceTree = "<group>"; };
-		FDE56E9728771E2700E22F1E /* longRunningTest12Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longRunningTest12Hours.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				FD102F0B27C683AD0037230A /* httpRequestTests.swift */,
-				FD8456D0287852580099F66D /* longRunningTest1Hour.swift */,
-				FD8456D6287853D50099F66D /* longRunningTest1Min.swift */,
-				FD8456CE287851ED0099F66D /* longRunningTest2Hours.swift */,
-				FD8456D22878528A0099F66D /* longRunningTest3Hours.swift */,
-				FD8456D828786F060099F66D /* longRunningTest6Hours.swift */,
-				FD8456D4287852960099F66D /* longRunningTest11Hours.swift */,
-				FDE56E9728771E2700E22F1E /* longRunningTest12Hours.swift */,
-				FD8456DA2878748C0099F66D /* longRunningTest13Hours.swift */,
-				FD9853CC287F139800B69B86 /* longRunningTest1030Hours.swift */,
 				FD880782288717CE0056E427 /* longRunningTest10Hours.swift */,
 			);
 			path = httpRequestTests;
