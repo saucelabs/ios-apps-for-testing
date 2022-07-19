@@ -214,17 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8456CF287851ED0099F66D /* longRunningTest2Hours.swift in Sources */,
-				FD8456D1287852580099F66D /* longRunningTest1Hour.swift in Sources */,
 				FD102F0C27C683AD0037230A /* httpRequestTests.swift in Sources */,
-				FD9853CD287F139800B69B86 /* longRunningTest1030Hours.swift in Sources */,
-				FD8456D5287852960099F66D /* longRunningTest11Hours.swift in Sources */,
-				FDE56E9828771E2700E22F1E /* longRunningTest12Hours.swift in Sources */,
 				FD880783288717CE0056E427 /* longRunningTest10Hours.swift in Sources */,
-				FD8456D32878528A0099F66D /* longRunningTest3Hours.swift in Sources */,
-				FD8456D928786F060099F66D /* longRunningTest6Hours.swift in Sources */,
-				FD8456DB2878748C0099F66D /* longRunningTest13Hours.swift in Sources */,
-				FD8456D7287853D50099F66D /* longRunningTest1Min.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
